@@ -1,1 +1,1 @@
-class NoteModel {  int id;  String title;  DateTime createdAt;  DateTime updatedAt;  NoteModel({    required this.id,    required this.title,    required this.createdAt,    required this.updatedAt  });}
+class NoteModel {  int id;  String title;  String description;  DateTime createdAt;  DateTime updatedAt;  NoteModel({    required this.id,    required this.title,    required this.description,    required this.createdAt,    required this.updatedAt  });}
